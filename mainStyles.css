@@ -1,0 +1,281 @@
+/*setup*/
+.hideMe {
+    display: none;
+}
+
+.mobile {
+    display: none;
+}
+
+/*================*/
+/*GENERAL*/
+/*================*/
+
+/*font*/
+p, h1, h2, h3, h4, h5, h6, a, ul, li {
+    font-family: 'Assistant', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+/*link color*/
+.row a, .row a:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+
+/*general container*/
+.container {
+    width: 100%;
+}
+
+
+/*ROWS */
+.row p {
+    font-size: 2.0em;
+}
+
+.row {
+    color: #FFF;
+    border-radius: 0px !important;
+    /*background-image: url("img/bgPattern_clear-00.png");*/
+    background-size: 32%;
+    padding-top: 125px;
+    padding-bottom: 140px;
+}
+
+
+
+.textBox {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.textBox p {
+    margin-top: 35px;
+}
+
+
+
+.actionRow {
+    background-color: #13A871;
+    -webkit-transition: background-color 1s, height 1s;
+    transition: background-color 1s, height 1s;
+}
+
+.learnRow {
+    background-color: #13A871;
+    /*background-color: #F4BA14;*/
+}
+
+.bgOrange {
+    background-color: #F89522;
+    background-image: url("img/bgPattern_clear-00.png");
+    background-size: 35%;
+}
+
+.bgOrangeRed {
+    background-color: #F05227;
+    background-image: url("img/bgPattern_clear-01.png");
+    background-size: 35%;
+}
+
+.bgPurple {
+    background-color: #883293;
+    background-image: url("img/bgPattern_clear-02.png");
+    background-size: 35%;
+}
+
+.bgBlue {
+    background-color: #36449C;
+    background-image: url("img/bgPattern_clear-03.png");
+    background-size: 35%;
+}
+
+.bgGreenLight {
+    background-color: #20AFA1;
+    /*background-color: #8EC73F;*/
+    background-image: url("img/bgPattern_clear-00.png");
+    background-size: 35%;
+}
+
+.bgGreen {
+    background-color: #1EB05A;
+    background-image: url("img/bgPattern_clear-01.png");
+    background-size: 35%;
+}
+
+
+
+
+/*===================*/
+/*BUTTONS*/
+/*===================*/
+
+.primaryBtn {
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 25px auto;
+    border-radius: 5px;
+    line-height: 60px;
+    width: 550px;
+}
+
+.optionsContainer h4 {
+    padding-bottom: 8px;
+}
+
+.img-scene {
+    width: 400px;
+    margin-bottom: 25px;
+}
+
+.img-scene-md {
+    transition: width 1s;
+}
+
+.img-scene-md.selected {
+    width: 300px;
+}
+
+
+.img-scene-md.notSelected {
+    width: 200px;
+}
+
+
+.initialNotSelected {
+    opacity: 0.35;
+    filter: alpha(opacity=35);
+}
+
+
+.setActionContent {
+    margin-top: 450px;
+}
+
+
+#symptomsSection ul img, #antibioticsSection ul img, #symptomsSection ul video, #antibioticsSection ul video {
+    width: 200px;
+}
+
+#symptomsSection ul li p {
+    margin-bottom: 50px;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+#contentMonitor img, #contentAppointment img, #contentER img {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.setActionContent ul li {
+    margin-bottom: 45px;
+}
+
+.setActionContent h2 {
+    font-size: 4em;
+    font-weight: 300;
+    margin-bottom: 45px;
+}
+
+.setActionContent h3 {
+    font-size: 2.5em;
+}
+
+.row1 h5 {
+    font-size: 32px;
+}
+
+h1 {
+    margin-bottom: 25px;
+}
+
+.setActionContent h3 {
+    margin-top: 500px;
+}
+
+.setActionContent ul p {
+    font-size: 2em;
+}
+
+
+.marginTopHuge {
+    margin-top: 950px;
+}
+
+.symptomsContainer {
+    width: 840px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.symptomsContainer h2 {
+    margin-bottom: 35px;
+}
+
+
+
+
+#howToManage h3 {
+    font-size: 3.0em;
+    margin-bottom: 25px;
+    margin-top: 55px;
+}
+
+#howToManage p {
+    margin-top: 15px;
+    margin-bottom: 75px;
+}
+
+
+
+.overlay {
+    position: fixed;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.12);
+    padding: 10px 15px;
+    font-size: 2em;
+}
+
+#backToTop {
+    right: 40px;
+    bottom: 40px;
+}
+
+#scrollDown {
+    position: absolute;
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.72);
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 80px;
+    font-size: 3.5em;
+    padding: 30px 60px;
+}
+
+#antibioticsSection p {
+    margin-bottom: 85px;
+}
+
+#antibioticsSection img {
+    margin-bottom: -30px;
+}
+
+#downIcon {
+    margin-top: 25px;
+    font-size: 4.5em;
+    -webkit-animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+

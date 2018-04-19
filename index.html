@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Project Eleven Percent</title>
+<link href="https://fonts.googleapis.com/css?family=Assistant:300,400,600,700" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="mainStyles.css">
+<link rel="stylesheet" href="responsive.css">
+<script src="mainScript.js"></script>
+</head>
+
+<!--<nav class="navbar navbar-default navbar-fixed-top fullNav">-->
+<!--	<div class="container-fluid">-->
+<!--	    <ul class="nav navbar-nav">-->
+<!--			<li id="navBackToTop" class="mainBtn"><a href="javascript:void(0)">Back to Top</a></li>-->
+<!--			<li id="navPainClinics" class="mainBtn"><a href="javascript:void(0)">Pain Clinics</a></li>-->
+<!--			<li id="navFindClinics" class="mainBtn"><a href="javascript:void(0)">Find Clinics</a></li> -->
+<!--			<li id="navSkillsToCope" class="mainBtn"><a href="javascript:void(0)">Skills to Cope</a></li> -->
+<!--			<li id="navOtherTools" class="mainBtn"><a href="javascript:void(0)">Other Tools</a></li> -->
+<!--			<li id="navContactUs" class="mainBtn"><a href="javascript:void(0)">Contact Us</a></li> -->
+<!--			<li id="mobileNavUpBtn" class="hideMe"><a href="javascript:void(0)"><i class="fa fa-angle-up" aria-hidden="true"></i></a></li>-->
+<!--			<li id="mobileNavDownBtn" class="showMe"><a href="javascript:void(0)"><i class="fa fa-angle-down" aria-hidden="true"></i></a></li>-->
+<!--		</ul>-->
+<!--	</div>-->
+<!--</nav>-->
+
+
+
+
+<body>
+	<div class="mainContainer container text-center" id="intro">
+		<div class="row row1 jumbotron lastElement bgOrange">
+			<div class="textContent">
+				<!--<h5>Let's Be Otitis Media Aware</h5>-->
+				<!--<h5 class="hook">u there?</h5>-->
+				<h1>Does Your Child Have Ear Pain?</h1>
+				<!--<div class="overlay hideMe" id="scrollDown">-->
+				<!--	<h1>Scroll Down!</h1>-->
+				<!--	<h2>to view more</h2>-->
+				<!--</div>-->
+				<img src="/img/scene_AOM-01.png" class="img-scene">
+				<!--<img id="panel_1" src="images/panel_1.png">-->
+				<h2>If so, it might be an ear infection (also known as otitis media)</h3>
+				<!--<a href="javascript:void(0)" id="btnHowDoIKnow"><h3 class="primaryBtn">How do I know if it's an ear infection?</h2></a>-->
+				<!--<a href="javascript:void(0)" id="btnWhatShouldIDo"><h3 class="primaryBtn">My child has an ear infection - what should I do?</h2></a>-->
+				<i class="fa fa-angle-double-down animated bounce infinite" id="downIcon" aria-hidden="true"></i>
+				<h4>scroll down for more</h4>
+			</div>
+		</div>
+	</div>
+	
+	<div class="mainContainer container text-center" id="learnPage">
+		<div class="row row1 jumbotron lastElement learnRow bgGreen">
+			<div class="textContent">
+				<h2>What is</h2>
+				<h1>Acute Otitis Media</h1>
+				<img src="/img/scene_ear.png" class="img-scene">
+				<div class=textBox>
+					<p>Acute Otitis Media (AOM) is an infection of quick onset that is usually due to viruses or bacteria. It usually resolves quickly with or without antibiotics.</p>
+					<p>The infection occurs in the middle ear when the fluids don't drain properly, leading to bacteria and/or viruses growing.</p>
+					<p>Many parents feel nervous or uneasy when their child has ear pain. However, it is important to remain calm.</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row row2 jumbotron lastElement learnRow bgPurple" id="symptomsSection">
+			<div class="textContent">
+				<h2>Looking for</h2>
+				<h1>Signs my child may have an ear infection</h1>
+				<p>Your child does not need to have all of the signs to have an ear infection.</p>
+				
+				<div class="symptomsContainer">
+					<h2>Common Signs</h2>
+					<div class="col-sm-6">
+						<ul>
+							<li><img src=img/icon/earPull.png><p>Ear Pulling</p></li>
+							<li><img src=img/icon/earPain.png><p>Ear Pain</p></li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<ul>
+							<li><img src=img/icon/crying.png><p>Crying/upset</p></li>
+							<!--<video src="img/icon/icon_crying.png" autoplay loop>-->
+							<li><img src=img/icon/fever.png><p>Fever</p></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+	<!--<div class="mainContainer container text-center" id="actionPage">-->
+		<div class="row jumbotron lastElement actionRow bgGreenLight" id="actionList">
+			<div class="textContent">
+
+				<h1>Here's What You Can Do</h1>
+
+				<div class="optionsContainer">
+						<a href="javascript:void(0)" id="btnMonitor" class="setActionBtns initialSelected">
+							<div class="col-xs-4">
+								<img src="/img/scene_home-01.png" class="img-scene-md sceneImg selected regular">
+								<img src="/img/icon/icon_home.png" class="img-scene-md sceneImg selected mobile">
+								<h2 class="actionOption">Rest at Home and Watch</h2>
+								<!--<img src="/img/scene_ER-01.png" class="img-scene-md sceneImg">-->
+								<!--<h2>Go To The Emergency Room</h2>-->
+							</div>
+						</a>
+						
+						<a href="javascript:void(0)" id="btnAppointment" class="setActionBtns initialNotSelected">
+							<div class="col-xs-4">
+								<img src="/img/scene_appointment-01.png" class="img-scene-md sceneImg notSelected regular">
+								<img src="/img/icon/icon_appointment.png" class="img-scene-md sceneImg mobile">
+								<h2 class="actionOption">Book an Appointment With Your Health Care Provider</h2>
+							</div>
+						</a>
+						
+						<a href="javascript:void(0)" id="btnER" class="setActionBtns initialNotSelected">
+							<div class="col-xs-4">
+								<img src="/img/scene_ER-01.png" class="img-scene-md sceneImg notSelected regular">
+								<img src="/img/icon/icon_er.png" class="img-scene-md sceneImg mobile">
+								<h2 class="actionOption">Go To The Emergency Department</h2>
+								<!--<img src="/img/scene_home-01.png" class="img-scene-md sceneImg">-->
+								<!--<h2>Rest at Home and Monitor</h2>-->
+							</div>
+						</a>
+				</div>
+
+			</div>
+			
+			<div id="contentMonitor" class="setActionContent">
+				<h3>Staying at Home and Watching</h3>
+				<h2>Recommended if your child has the following signs</h2>
+				<div class="col-sm-4">
+					<ul>
+						<li><img src=img/icon/chrHappy.png><p>Alert &amp; Active</p></li>
+						<li><img src=img/icon/medicineYes.png><p>Pain Medication is Working</p></li>
+					</ul>
+				</div>
+				<div class="col-sm-4">
+					<ul>
+						<li><img src=img/icon/sleepEatYes.png><p>Able to Sleep/Eat</p></li>
+						<li><img src=img/icon/lessThan39.png><p>Temperature &lt; 39°C (102°F)</p></li>
+					</ul>
+				</div>
+				<div class="col-sm-4">
+					<ul>
+						<li><img src=img/icon/painLow.png><p>Mild Ear Ache/Pain</p></li>
+						<li><img src=img/icon/lessThan48.png><p>Ill for < 48 Hours</p></li>
+					</ul>
+				</div>
+			</div>
+			
+			
+			<div id="contentAppointment" class="hideMe setActionContent">
+				<h3>Making an Appointment with your health Care provider</h3>
+				<h2>Recommended if your child has the following signs</h2>
+				<div class="col-sm-4">
+					<ul>
+						<li><img src=img/icon/chrSad.png><p>Child is Upset/Can't Settle</p></li>
+						<li><img src=img/icon/medicineNo.png><p>Pain Medication isn't working</p></li>
+					</ul>						
+				</div>
+				<div class="col-sm-4">
+					<ul>
+						<li><img src=img/icon/sleepEatNo.png><p>Unable to Sleep/Eat</p></li>
+						<li><img src=img/icon/moreThan39.png><p>Temperature > 39°C (102°F)</p></li>
+					</ul>
+				</div>
+				<div class="col-sm-4">
+					<ul>
+						<li><img src=img/icon/painHigh.png><p>Severe Ear Ache/Pain</p></li>
+						<li><img src=img/icon/moreThan48.png><p>Ill for > 48 Hours</p></li>
+					</ul>
+				</div>
+			</div>
+			
+			
+			<div id="contentER" class="hideMe setActionContent">
+				<h3>Visiting the Emergency Department</h3>
+				<h2>Recommended if your child has the following signs</h2>
+				<ul>
+					<li><img src=img/icon/rupture.png><p>Fluid coming from the ear</p></li>
+					<li><img src=img/icon/seizure.png><p>Febrile Seizure Occurs</p></li>
+					<!--change this image to something else soon-->
+				</ul>
+			</div>
+			
+		</div>
+	<!--</div>-->
+		
+		
+		<div class="row row3 jumbotron lastElement learnRow bgBlue" id="howToManage">
+			<div class="textContent">
+				<h2>Ear Infection Detected?</h2>
+				<!--<h1>How to Manage</h1>-->
+				<h1>What You Can Do While Resting at Home</h1>
+				<!--<h3>Mild Symptoms</h3>-->
+				<img src="/img/scene_monitor.png" class="img-scene">
+				<div class="textBox">
+					<p>Children with mild AOM symptoms can be observed at home for 24-48 hours to see if symptoms resolve on their own. Pain medication (e.g. acetaminophen, such as children’s Tylenol, Advil, or generic equivalent) can be given to help decrease ear pain/discomfort. Please follow the instructions on the medication.</p>
+				</div>
+				
+				<!--<h3>Moderate to Severe Symptoms</h3>-->
+				<!--<img src="/img/scene_doctorThings.png" class="img-scene">-->
+				<!--<div class="textBox">-->
+				<!--	<p>Seek medical attention as the child should only be treated with antibiotics to prevent complications.</p>	-->
+				<!--</div>-->
+				
+			</div>
+		</div>
+		
+		<div class="row row3 jumbotron lastElement learnRow bgGreen" id="antibioticsSection">
+			<div class="textContent">
+				<h2>Being Smart With Using</h2>
+				<h1>Antibiotics</h1>
+				<div class="textBox">
+					<p>Your health care provider may order antibiotics for your child. Antibiotics may be helpful in getting your child better faster, but they should only be used when necessary.</p>
+					<ul>
+						<!--<li><img src=img/icon/antibiotics/stronger.png><p>Unnecessary use of antibiotics can contribute to antibiotic resistance.</p></li>-->
+						<li><img src=img/icon/antibiotics/sideEffects.png><p>The use of antibiotics might needlessly expose children to the side effects of antibiotics, including vomiting, diarrhoea or rash.</p></li>
+						<!--<li><img src=img/icon/antibiotics/nope.png><p>Also, antibiotics are not effective for reducing ear pain - use Children's Advil or Tylenol (or generic equivalent) for pain instead.</p></li>-->
+						<li><img src=img/icon/antibiotics/instructions.png><p>If your health care provider prescribes antibiotics, makes sure they are given to your child according to the their instructions.</p></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row row3 jumbotron lastElement learnRow bgOrange">
+			<div class="textContent">
+				<h1>Additional Resources</h1>
+				<!--<a href="javascript:void(0)" id="btnWhatNow"><h3 class="primaryBtn">Yes, what now?</h2></a>-->
+				<a href="http://trekk.ca/patientsandfamilies" id="btnLearnMore"><h3 class="primaryBtn">Click here to learn more!</h3></a>
+			</div>
+		</div>
+	</div>
+	
+	
+</body>
+
+<div class="overlay" id="backToTop">
+	<i class="fa fa-chevron-up" aria-hidden="true"></i>
+</div>
+
+
+
+<footer class="text-center md-space" id="rowContacts">
+	<i class="fa fa-question-circle-o fa-5x"></i><h3>Questions? Comments?</h3>
+	<h1>Contact Us</h1>
+	<h3>itl@ualberta.ca</h3>
+	<p>Devloped by TREKK | trekk.ca</p>
+	<p>v_rA 0.85</p>
+</footer>
+</html>

@@ -1,0 +1,212 @@
+/* Medium Devices, Laptops*/
+@media only screen and (max-width: 1200px) {
+
+.row {
+    padding-top: 75px;
+    padding-bottom: 100px;
+}
+
+.img-scene {
+    width: 300px;
+}
+
+.img-scene-md.selected {
+    width: 200px;
+}
+
+
+.img-scene-md.notSelected {
+    width: 150px;
+}
+
+.setActionContent h3 {
+    margin-top: 0px;
+}
+
+
+
+#symptomsSection ul img, #antibioticsSection ul img, #symptomsSection ul video, #antibioticsSection ul video {
+    width: 175px;
+}
+
+
+#contentMonitor img, #contentAppointment img, #contentER img {
+    width: 175px;
+    margin-bottom: 10px;
+}
+
+
+
+}
+
+
+
+
+
+/*Small Devices, Tablets*/
+@media only screen and (max-width: 768px) {
+
+.row {
+    padding-top: 60px;
+    padding-bottom: 85px;
+}
+
+.img-scene {
+    width: 280px;
+}
+
+.img-scene-md.selected {
+    width: 190px;
+}
+
+
+.img-scene-md.notSelected {
+    width: 145px;
+}
+
+
+    
+.textBox {
+    width: 700px;
+}
+
+.symptomsContainer {
+    width: 760px;
+}
+
+.container .jumbotron {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.bgOrange {
+    background-color: #F89522;
+    background-image: url("img/bgPattern_clear-00.png");
+    background-size: 55%;
+}
+
+.bgOrangeRed {
+    background-color: #F05227;
+    background-image: url("img/bgPattern_clear-01.png");
+    background-size: 55%;
+}
+
+.bgPurple {
+    background-color: #883293;
+    background-image: url("img/bgPattern_clear-02.png");
+    background-size: 55%;
+}
+
+.bgBlue {
+    background-color: #36449C;
+    background-image: url("img/bgPattern_clear-03.png");
+    background-size: 55%;
+}
+
+.bgGreenLight {
+    background-color: #20AFA1;
+    /*background-color: #8EC73F;*/
+    background-image: url("img/bgPattern_clear-00.png");
+    background-size: 55%;
+}
+
+.bgGreen {
+    background-color: #1EB05A;
+    background-image: url("img/bgPattern_clear-01.png");
+    background-size: 55%;
+}
+
+.primaryBtn {
+    width: 500px;
+}
+
+}
+
+
+
+
+
+
+
+
+/*Tiny Devices, Tablets*/
+@media only screen and (max-width: 420px) {
+    
+.regular {
+    display: none;
+}
+
+.mobile {
+    display: inline;
+}
+
+/*.hook::after {*/
+/*    content: ": yes i am x15";*/
+/*}*/
+
+/*.optionsContainer {*/
+/*    display: none;*/
+/*}*/
+
+.row {
+    padding-top: 45px;
+    padding-bottom: 70px;
+}
+
+.img-scene {
+    width: 250px;
+}
+
+.img-scene-md.selected {
+    width: 175px;
+}
+
+
+.img-scene-md.notSelected {
+    width: 135px;
+}
+
+
+#symptomsSection ul img, #antibioticsSection ul img, #symptomsSection ul video, #antibioticsSection ul video {
+    width: 160px;
+}
+
+#contentMonitor img, #contentAppointment img, #contentER img {
+    width: 160px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.textBox {
+    width: 340px;
+}
+
+.symptomsContainer {
+    width: 350px;
+}
+
+.primaryBtn {
+    width: 300px;
+}
+
+
+.img-scene-md.mobile {
+    width: 85px;
+}
+
+.img-scene-md.mobile.selected {
+    width: 110px;
+}
+
+.actionOption {
+    font-size: 1.5em;
+}
+
+.setActionContent {
+    margin-top: 335px;
+}
+
+
+}
