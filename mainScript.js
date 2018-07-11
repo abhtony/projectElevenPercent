@@ -152,7 +152,31 @@ function scrollDownInit () {
     // $("#scrollDown").fadeIn(800, function () {
     //     $("#scrollDown").fadeOut(800)});
 }
-    
+
+
+function overlayBtnInit () {
+    init_liability_button();
+    init_overlay_close_button();
+}
+
+function init_liability_button(){
+    $("#liability-statement-btn").click(function(){
+       console.log("liability button was clicked");
+       $("#liability-overlay").fadeIn();
+       $("body").addClass("scroll-locked");
+    });
+}
+
+function init_overlay_close_button () {
+    $(".overlay-close-btn").click(function(){
+       console.log("overlay close button was clicked");
+       $("#liability-overlay").hide();
+       $("body").removeClass("scroll-locked");
+       $("#liability-statement-btn").get(0).scrollIntoView();
+    });
+}
+
+
 
 // ================
 // MAIN
@@ -165,6 +189,7 @@ function main () {
     actionBtnInit();
     // scrollDownInit();
     // setTimeout(scrollDownInit() ,4000);
+    overlayBtnInit();
 }
 
 $(window).scroll(function (event) {

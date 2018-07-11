@@ -67,11 +67,11 @@
 
     
 .textBox {
-    width: 700px;
+    max-width: 700px;
 }
 
 .symptomsContainer {
-    width: 760px;
+    max-width: 745px;
 }
 
 .container .jumbotron {
@@ -119,6 +119,9 @@
 .primaryBtn {
     width: 500px;
 }
+
+
+
 
 }
 
@@ -176,21 +179,29 @@
     margin-bottom: 10px;
 }
 
+.setActionContent h2 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
 .textBox {
-    width: 340px;
+    max-width: 340px;
+}
+/*340*/
+.row p {
+    font-size: 1.7em;
 }
 
 .symptomsContainer {
-    width: 350px;
+    max-width: 350px;
 }
 
 .primaryBtn {
     width: 300px;
 }
-
 
 .img-scene-md.mobile {
     width: 85px;
@@ -209,4 +220,26 @@
 }
 
 
+
+}
+
+
+@media (min-width: 768px) {
+
+
+.horizontal-list-tablet {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.horizontal-list-tablet li {
+    float: left;
+    margin: 0px 10px;
+}
+
+.logo-list {
+    width: 740px;
+}
+    
 }
