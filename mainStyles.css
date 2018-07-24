@@ -320,7 +320,7 @@ h1 {
     overflow-y: scroll;
 }
 
-#liability-statement-btn .primaryBtn, .primaryBtn.overlay-close-btn {
+#liability-statement-btn .primaryBtn, .primaryBtn.overlay-close-btn, #close-infographic-btn .primaryBtn {
     background-color: rgba(200, 200, 200, 0.3);
 }
 

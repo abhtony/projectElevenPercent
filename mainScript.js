@@ -157,6 +157,7 @@ function scrollDownInit () {
 function overlayBtnInit () {
     init_liability_button();
     init_overlay_close_button();
+    // init_close_infograhpic();
 }
 
 function init_liability_button(){
@@ -176,6 +177,12 @@ function init_overlay_close_button () {
     });
 }
 
+function init_close_infograhpic(){
+    $("#close-infographic-btn").click(function(){
+       console.log("close survey button was clicked");
+       open(location, '_self').close();
+    });
+}
 
 
 // ================
